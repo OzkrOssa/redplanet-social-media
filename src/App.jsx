@@ -1,5 +1,6 @@
 import Logo from "./assets/logo_redplanet.png";
 import { SocialIcon } from "react-social-icons";
+import Instagram from "./assets/instagram.svg";
 
 function App() {
   return (
@@ -24,13 +25,13 @@ function App() {
             style={{ height: 50, width: 50 }}
             url="https://www.facebook.com/people/Red-Planet/100041521789739/?mibextid=WC7FNe&rdid=d1oa7HkyCr58fpX7"
           />
-          <SocialIcon
-            network="instagram"
-            bgColor="#e4405f"
+          <a
+            href="https://www.instagram.com/internet_red_planet/"
             style={{ height: 50, width: 50 }}
-            url="https://www.instagram.com/internet_red_planet/"
             className="hover:opacity-80"
-          />
+          >
+            <img src={Instagram} alt="instagram" />
+          </a>
         </div>
       </div>
     </div>
