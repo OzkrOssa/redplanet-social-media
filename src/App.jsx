@@ -10,7 +10,7 @@ function App() {
         <h1 className="text-[#7c2e82] text-3xl font-bold mb-10 mt-10">
           ¡Bienvenido!
         </h1>
-        <div className="flex justify-center space-x-6 mt-5">
+        <div className="flex justify-center space-x-6 mt-5 mb-5">
           <SocialIcon
             network="whatsapp"
             bgColor="#25d366"
@@ -33,6 +33,7 @@ function App() {
             <img src={Instagram} alt="instagram" />
           </a>
         </div>
+        <span className="text-sm font-semibold">Clic para visitar nuestras redes sociales</span>
       </div>
     </div>
   );
