@@ -8,7 +8,7 @@ function App() {
       <div className="text-center">
         <img src={Logo} alt="logo" />
         <h1 className="text-[#7c2e82] text-3xl font-bold mb-10 mt-10">
-          ¡Bienvenido!
+          ¡Gracias por preferirnos, tu pago se verá reflejado en minutos!
         </h1>
         <div className="flex justify-center space-x-6 mt-5 mb-5">
           <SocialIcon
@@ -33,7 +33,7 @@ function App() {
             <img src={Instagram} alt="instagram" />
           </a>
         </div>
-        <span className="text-sm font-semibold">Clic para visitar nuestras redes sociales</span>
+        <span className="text-sm font-semibold">Para mayor informacion clic en nuestras redes sociales</span>
       </div>
     </div>
   );
